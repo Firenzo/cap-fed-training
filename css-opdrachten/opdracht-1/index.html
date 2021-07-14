@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: "ZenTokyoZoo-Regular";
+        src: url('fonts/ZenTokyoZoo-Regular.ttf') format('truetype');
+    }
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    body {
+        background: rgb(44, 44, 44);
+        color: rgb(204, 204, 204);
+        padding:50px 10%;
+    }
+
+    section {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    section img{
+        width:50%;
+        display:block;
+        margin:auto;
+    }
+
+    section h1 {
+        font-family: "ZenTokyoZoo-Regular", sans-serif;
+        font-size: 100px;
+        color:white;
+    }
+
+    p{
+        color:red;
+    }
+
+    section p {
+        line-height: 2em;
+        font-size: 18px;
+        font-family: sans-serif;
+        color:blue;
+    }
+
+    section p.color{
+        color:rgb(150, 150, 150);
+    }
+
+    section p#first-paragraph{
+        color:gold;
+    }
+
+    section p#first-paragraph.color{
+        color:tomato;
+    }
+
+    section p#first-paragraph.color[color]{
+        color:aqua;
+    }
+
+    section p#first-paragraph.color[color="interesting-color"]{
+        color:rgb(226, 226, 226);
+    }
+
+    section p:not(:last-of-type){
+        margin-bottom:50px;
+    }
+</style>
+
+<body>
+    <section>
+        <h1>CSS excercise</h1>
+        <p id="first-paragraph" class="color" color="interesting-color">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio libero neque illum, ullam dolores facere explicabo debitis sit maiores quo architecto iste magni enim nobis odit amet ratione, hic delectus maxime! Dolorem, maxime dolore aspernatur voluptates quia asperiores officiis nesciunt. Dolores maiores, qui rerum autem aspernatur cumque minima facilis quasi ex atque ut soluta voluptatem, accusamus omnis quas ab enim? Dolore eaque nihil aspernatur labore possimus eum facilis, mollitia sequi cupiditate cumque dicta quasi dignissimos corrupti tempora perspiciatis unde inventore. Aliquid quibusdam ipsum voluptates, error reprehenderit asperiores deleniti culpa, dolorum ex necessitatibus iste quisquam, consequatur optio explicabo ullam repellat? Architecto aut sapiente sequi, numquam harum suscipit explicabo nemo reprehenderit officia placeat laboriosam in, quam a illum tempora ea odit, totam aliquid quas eaque minima qui mollitia alias? Eligendi eum accusantium numquam deleniti dignissimos consectetur, optio, itaque omnis delectus velit veritatis recusandae maiores debitis veniam, reprehenderit quam accusamus molestias dolorem necessitatibus molestiae dolor! Cupiditate, recusandae fugiat. Ad, vel molestias eos, similique omnis tenetur doloribus quo id consequuntur inventore quos nemo? Nihil magni dolore ea fugiat alias! Minus dignissimos deleniti minima sint animi, odio consequatur. Ipsam deleniti asperiores nesciunt similique? Vel, sequi doloremque. At cum blanditiis dolorum suscipit maiores! Sint, iure!</p>
+        <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim earum fugiat facere itaque aliquam! Qui nesciunt labore corporis harum ipsum numquam. Enim rem, ad tenetur aut mollitia consectetur delectus dolorem eius esse dolorum neque ullam, distinctio dicta aperiam debitis cumque unde laborum voluptate exercitationem tempore iusto. Illo aut, quibusdam ullam nemo, veniam odit consectetur vel distinctio rerum illum omnis repellendus? Saepe quibusdam consectetur nihil similique quisquam hic at expedita odio officiis, maiores aperiam placeat repellat cupiditate cumque autem modi dolor commodi eum ad consequatur ut architecto totam. Animi quasi totam pariatur vel assumenda iste debitis libero repellendus, doloremque hic voluptatum, placeat neque! Voluptate nam neque numquam ratione soluta nisi facilis, nulla minima eaque facere pariatur doloremque earum esse veritatis consequuntur dolores fugiat totam tenetur, aliquid doloribus maiores quibusdam? Reiciendis expedita mollitia voluptatum laboriosam possimus dolorem earum tempora dolorum esse, maiores dolores sequi explicabo obcaecati animi tenetur? Totam atque hic expedita illum voluptatum est omnis saepe natus explicabo similique minus cum eos obcaecati, molestiae dolores quo, provident, ipsam consequatur reprehenderit et facere dolor quasi. Quibusdam reprehenderit rem, assumenda autem minima omnis, qui doloremque a impedit in eius? Hic alias est, a debitis suscipit quis accusantium repellat voluptas animi quidem officiis corrupti sapiente dolorum atque quaerat magni at beatae. Aliquam officiis molestias vel eum molestiae, ipsam doloribus quam odit cupiditate at minus officia facilis corporis ut neque enim. Quis, optio eum! Eveniet esse, adipisci soluta veritatis recusandae officiis corporis distinctio nulla perspiciatis asperiores ad consectetur maxime eos explicabo dolorem quisquam eaque repudiandae.</p>
+        <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, recusandae ipsa reprehenderit quam ea deserunt nobis. Animi tenetur, quas, placeat eos soluta sapiente officia cumque veniam a laborum omnis quod voluptate quaerat est vero rerum reiciendis ab dolorum commodi hic ipsa et facilis nam distinctio! Et assumenda facere vitae aliquam temporibus, voluptatem vero iusto eligendi eum ex cum quis natus quo omnis harum dolorum, quaerat quos explicabo nulla eos earum ipsam nostrum distinctio sit. Laborum, eaque! Cumque, voluptatibus quos. Delectus nihil vero hic modi doloremque, fuga similique rem quia fugiat quidem veritatis itaque animi amet excepturi sequi in tenetur soluta possimus? Fugiat accusamus minima molestiae nostrum sed laudantium eaque sequi eligendi! Commodi, unde fugit. Provident eligendi et optio ab repellendus?</p>
+        <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, earum praesentium labore qui deleniti repudiandae provident molestiae perferendis debitis quo cum assumenda nulla ipsam officia sit ad nihil exercitationem beatae autem facere? Quam nam illo earum eius molestiae fugiat dolore dolorem veritatis repellendus suscipit id aliquid saepe esse architecto molestias magnam laboriosam, mollitia quas nostrum provident quaerat recusandae. Molestiae similique saepe quas perspiciatis. Iusto ipsam eligendi reprehenderit placeat, delectus asperiores molestias corporis ullam voluptatum excepturi impedit est ad. In, nobis?</p>
+    </section>
+</body>
+
+</html>

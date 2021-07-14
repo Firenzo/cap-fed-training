@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: "ZenTokyoZoo-Regular";
+        src: url('../opdracht-1/fonts/ZenTokyoZoo-Regular.ttf') format('truetype');
+    }
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    body {
+        background: rgb(44, 44, 44);
+        color: rgb(204, 204, 204);
+        padding:50px 10%;
+    }
+
+    section {
+        align-items: center;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    section#hello-world h1 {
+        display:block;
+        font-size: 50px;
+        font-family:sans-serif;
+        text-align: center;
+
+        color:green;
+        text-decoration: underline;
+        text-shadow: 20px 20px 0 gold;
+        letter-spacing: 10px;
+        text-transform: uppercase; 
+    }
+
+    section#rainbow h1 {
+        display:block;
+        font-size: 50px;
+        font-family:sans-serif;
+        text-align: center;
+        margin-bottom:20px;
+
+        color:green;
+        text-decoration: underline;
+        text-shadow: 20px 20px 0 gold;
+        letter-spacing: 10px;
+        text-transform: uppercase; 
+    }
+
+    section#rainbow{
+        margin-top:100px;
+        background: linear-gradient(to bottom, red , orange, yellow, green, cyan, blue, violet);
+        background: url('background.jpg') repeat;
+        background-size: cover;
+        padding: 100px 20px;
+        border-radius:20px;
+    }
+
+    section#rainbow p {
+        line-height: 2em;
+        font-size: 20px;
+        font-family: sans-serif;
+        color:black;
+        opacity:0.6;
+    }
+
+    section#rainbow p::first-letter{
+        font-weight:600;
+        font-size:25px;
+    }
+    
+    section#rainbow a{
+        margin-top:50px;
+        text-decoration:none;
+        font-family:sans-serif;
+        font-weight:600;
+    }
+
+    section#rainbow a:hover{
+        text-decoration:underline;
+    }
+
+    section#rainbow a:visited{
+        color:pink;
+    }
+
+    section#rainbow a:focus{
+        background:red;
+    }
+
+</style>
+
+<body>
+    <section id="hello-world">
+        <h1>Hello World</h1>
+    </section>
+
+    <section id="rainbow">
+        <h1>Hello World</h1>
+        <p class="text">This is some text</p>
+        <a href="#">Click me</a>
+    </section>
+</body>
+
+</html>
